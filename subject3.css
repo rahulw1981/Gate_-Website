@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.head{
+background-image: linear-gradient(to right, #D4145A 30% , #FBB03B 80%);
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  gap: 2rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 25px;
+  padding-top: 12px;
+}
+
+#topics ul li .scro{
+  font-weight: bold;
+  font-size: 16px;
+  
+}
+
+marquee{
+  margin-left: 0px;
+}
+
+
+h2{
+  margin-left: 12px;
+}
+#info1 .info2 .info3 {
+  background-image: linear-gradient(to top, #2ff03f 30% , #84fc6c 80%);
+  border: 3px solid rgb(26, 23, 23);
+  margin-right: 15px;
+  margin-left: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+}
+
+.info3:hover{
+  box-shadow:2px 3px 3px rgb(97, 96, 96);
+}
+
+nav ul li a:hover{
+  color: lightblue;
+}
+
+#preq .preq1{
+  background-image: linear-gradient(to top, #2ff03f 30% , #84fc6c 80%);
+  border: 3px solid rgb(26, 23, 23);
+  margin-right: 15px;
+  margin-left: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+}
+
+.preq1:hover{
+  box-shadow:2px 3px 3px rgb(97, 96, 96);
+}
+
+
+.hero {
+  background-image: url("hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px;
+  color: #fff;
+}
+
+#topics .scro{
+  font-weight: bold;
+}
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.about {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.portfolio {
+  padding: 50px;
+  text-align: center;
+}
+
+.portfolio h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 300px;
+  margin: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
